@@ -6,7 +6,9 @@ import Home from "./components/Home";
 function App() {
   return (
     <Routes>
-      <Route path = "/" element = {<ChatPage />} />
+      <Route path = "/api.chats" element = {<ChatPage />} />
+      <Route path = "/" element = {<Home />} />
+      <Route path = "/chats" element = {<Chat />} />
     </Routes>
     );
 }
